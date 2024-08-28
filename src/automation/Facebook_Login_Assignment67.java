@@ -3,7 +3,7 @@ package automation;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Facebook_Login {
+public class Facebook_Login_Assignment67 {
 
 	public static void main(String[] args) {
 		
