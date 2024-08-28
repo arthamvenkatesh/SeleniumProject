@@ -23,9 +23,6 @@ public class Amazon_Login {
 		//password - name
 		//signInSubmit - id
 
-		
-		
-
 	}
 
 }
