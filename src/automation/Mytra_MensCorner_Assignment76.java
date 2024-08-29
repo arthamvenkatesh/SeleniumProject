@@ -1,17 +1,21 @@
 package automation;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Amazon_TodayDeals_71 {
+public class Mytra_MensCorner_Assignment76 {
 
 	public static void main(String[] args) {
 
 		ChromeDriver driver = new ChromeDriver();
-		driver.get("https://www.amazon.in");
 		driver.manage().window().maximize();
+		driver.get("https://www.myntra.com/");
+		
+		
+		WebElement w1 = driver.findElement(By.linkText("Men"));
+		w1.click();
 
-		driver.findElement(By.partialLinkText("Today's Deals")).click();
 	}
 
 }

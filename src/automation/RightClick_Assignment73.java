@@ -16,6 +16,8 @@ public class RightClick_Assignment73 {
 		driver.findElement(By.name("userName")).sendKeys("abcde");
 		driver.findElement(By.name("password")).sendKeys("abcdfe");
 		driver.findElement(By.name("loginCaptchaValue")).sendKeys("bfhr");
+		
+		driver.close();
 
 	}
 

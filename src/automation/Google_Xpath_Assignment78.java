@@ -4,16 +4,17 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class FirstCry_BoysFashion_Assignement74 {
+public class Google_Xpath_Assignment78 {
 
 	public static void main(String[] args) {
 		
 		ChromeDriver driver = new ChromeDriver();
-		driver.get("https://www.firstcry.com/");
 		driver.manage().window().maximize();
+		driver.get("http://www.google.com");
 		
-		WebElement w= driver.findElement(By.partialLinkText("BOY FASHION"));
-		w.click();
+		
+		WebElement a1 = driver.findElement(By.xpath("//textarea[@name='q']"));
+		a1.sendKeys("india");
 
 	}
 

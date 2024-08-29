@@ -2,7 +2,7 @@ package automation;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Navigate {
+public class Navigate_Assignement82 {
 
 	public static void main(String[] args) throws InterruptedException {
 		

@@ -1,19 +1,19 @@
 package automation;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class LaunchAmazon_SearchProduct {
+public class FirstCry_GirlFashion_Assignment71 {
 
 	public static void main(String[] args) {
 		
 		ChromeDriver driver = new ChromeDriver();
-		driver.get("http://www.Amazon.in");
+		driver.get("https://www.firstcry.com/");
 		driver.manage().window().maximize();
-
-		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Shoes" + Keys.ENTER);
-
+		
+		WebElement w= driver.findElement(By.partialLinkText("GIRL FASHION"));
+		w.click();
 	}
 
 }
